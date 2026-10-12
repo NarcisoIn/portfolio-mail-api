@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mail-api:
+    build: .
+    container_name: mail-api
+    image: portfolio-mail-api:latest
+    ports:
+      - "8001:8000"
+    env_file:
+      - .env
+    environment:
+      - ENV=production
+    restart: unless-stopped
