@@ -147,7 +147,7 @@ Variables utilizadas:
 ```env
 ENV=production
 
-RESEND_API_KEY=re_tu_api_key_aqui
+RESEND_API_KEY=tu_api_key_aqui
 
 EMAIL_CONTACT=tu_correo_personal@gmail.com
 EMAIL_FROM=Portafolio <formulario@tudominio.com>
@@ -254,7 +254,7 @@ Editar las variables de entorno:
 ```env
 ENV=production
 
-RESEND_API_KEY=re_tu_api_key_aqui
+RESEND_API_KEY=tu_api_key_aqui
 
 EMAIL_CONTACT=tu_correo_personal@gmail.com
 EMAIL_FROM=Portafolio <formulario@tudominio.com>
@@ -291,7 +291,7 @@ docker compose down
 ## Estructura del proyecto
 
 ```text
-apiMail/
+portfolio-mail-api/
 ├── main.py
 ├── requirements.txt
 ├── Dockerfile
@@ -370,7 +370,7 @@ Cloudflare
    └── Tunnel
         │
         ▼
-   FastAPI
+     FastAPI
         │
         ▼
       Resend
